@@ -2,7 +2,7 @@ name: "Code Scanning - Action"
 
 on:
   pull_request:
-    branches: .github/codeql/codeql-config.yml
+    branches: [main]
 
 jobs:
   CodeQL-Build:
